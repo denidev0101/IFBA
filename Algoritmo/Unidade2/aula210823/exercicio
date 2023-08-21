@@ -1,1 +1,65 @@
+/*Cadastrar 20 funcionarios e deixar o usuário escolher através de um menu o que deve ser feito
+ (cadastrar, relatorio, excluir, sair) usando função e struch */
 
+#include <stdio.h>
+
+struct endereco
+{
+	char rua[20];
+	int numero;
+	char bairro[20];
+	char cidade[20];
+	char cep[12];
+	char pais[20];
+	
+};
+struct ficha
+{
+	char nome[30];
+	int matricula;
+	char cargo[20];
+	float ch;
+	char salario[10];
+	char endereco[30];
+	struch endereco ender[2];   //o vetor permite inserir 2 endereços
+
+};
+
+void menu();
+void cadastrar();
+void relatorio();
+void excluir();
+void sair();
+void arrumarVetor();
+
+main()
+{
+ 	struct ficha a;
+ 	
+	 printf("Informe seu nome: ");
+	fflush(stdin);										//limpa o buffer
+	 gets(a.nome);
+	 
+	 printf("Informe sua idade:");
+	 fflush(stdin);
+	 gets(a.idade;
+	 
+	 printf("Informe seu telefone:");
+	 fflush(stdin);
+	 gets(a.telefone;
+}
+void menu()
+{	int x;
+	switch(x)
+	{
+		case 1:return cadastrar();
+			break;
+		case 2:return relatorio();
+			break;
+		case 3: return excluir();
+			break;
+		case 4:return sair();
+			break;
+		default: "error";
+	}
+}
