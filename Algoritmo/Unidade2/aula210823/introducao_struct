@@ -1,1 +1,24 @@
-.
+#include <stdio.h>
+
+struct ficha{
+	char nome[30];
+	int idade;
+	char telefone [15];
+};
+
+main()
+{
+ 	struct ficha a;
+ 	
+	 printf("Informe seu nome: ");
+	fflush(stdin);										//limpa o buffer
+	 gets(a.nome);
+	 
+	 printf("Informe sua idade:");
+	 fflush(stdin);
+	 gets(a.idade;
+	 
+	 printf("Informe seu telefone:");
+	 fflush(stdin);
+	 gets(a.telefone;
+}
