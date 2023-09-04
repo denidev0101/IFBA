@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    height: 7%;
+    color: rgb(255, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background:linear-gradient(90deg, black, white);
+    height: 135vh;
+}
+
+.jogos{
+    color: rgb(251, 255, 0);
+    margin-left: 7%;
+    margin-top: 5%;
+}
+ul{
+    margin-top: 5%;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.titulo{
+    color: aliceblue;
+    font-family: 'Rubik Iso', cursive;
+    border: 2px solid cyan;
+    padding: 1%;
+    border-radius:10%;
+}
+
+.divJogos{
+    margin-left:15% ;
+    
+}
+.photo{
+    margin-right: 10%;
+    margin-top: 5%;
+    border-bottom: 10px solid black;
+    border-left:  10px solid black;
+}
