@@ -1,0 +1,29 @@
+import java.util.Stack;
+
+
+public class AtividadeRemocao {
+
+	public static void main(String[]args)
+	{
+											//Fila - pilha - lista
+		String string1="((x+y))";
+		String string2="))(x)((";
+		String string3="((x-y/z)";
+		String string4="([x*y))";
+		
+		Stack<String> pilha = new Stack<String>();
+		
+		int tam= string1.length();
+		for(int i=0;i<tam;i++)
+		{
+			char letter = string1.charAt(i);
+			if(letter=='(')
+			{
+				System.out.println("deu certo");
+				//falta implementar a incrementação e remoção do espelhamento na pilha
+				//fazer o array de strings para amenizar 
+			}
+		}
+		
+	}
+}
